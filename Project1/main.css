@@ -1,0 +1,48 @@
+.container {
+	width: 960px;
+	margin: auto;
+	background-color: #F2E6BB;
+
+}
+
+#mypic {
+	height: 400px;
+	width: 300px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+	
+}
+
+.header {
+	width: 950px;
+	float: left;
+	background-color: #63BD99;
+	padding-left: 10px;
+}
+.maincon {
+	width: 960px;
+
+}
+
+.info {
+	float: left;
+	width: 630px;
+	padding-left: 10px;
+}
+
+
+#twitpic {
+	height: 50px;
+	width: 50px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+h1 {
+	float: left; 
+}
+
+
+
