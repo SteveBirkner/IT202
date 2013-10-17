@@ -4,7 +4,7 @@
 <html xmlns = "http://www.w3.org/1999/xhtml">
   <head> 
     
-  	<title>Steven Birkner</title>
+  	<title>Steven</title>
     <script type="text/javascript" src="smb38.js"></script>
 
 
@@ -14,40 +14,40 @@
 
   <h1>Registration Form</h1>
 
-  <form  id="mainform" action="" onsubmit="validate()">
+  <form  id="mainform" action="mailto:smb38@njit.edu" onsubmit="return validate()" method="post" enctype="text/plain">
   	<p>
-  		<label>
+  		<label for="name">
   			Name:
-  			<input type="text" id = "name" />
+  			<input name="Name" type="text" id = "name" />
   			 
 			
   		</label>
   		<br />
-  		<label>
+  		<label for="email">
   			E-Mail:
-  			<input type="text" id = "email" />
+  			<input name="Email" type="text" id = "email" />
   			 
 			
   		</label>
   		<br />
-  		<label>
+  		<label for="pass">
   			Password:
-  			<input type="password" id = "pass" />
+  			<input name="Password" type="password" id = "pass" />
   			 
 			
   		</label>
   		<br />
-  		<label>
+  		<label for="repass">
   			Re-Type Password:
-  			<input type="password" id = "repass" />
+  			<input name="Re-Typed Password" type="password" id = "repass" />
   			 
 			
   		</label>
   		<br />
   		<label>
   		Gender: 
-  		<input type="radio" name="sex" value="male">Male 
-		<input type="radio" name="sex" value="female">Female
+  		<label>Male <input type="radio" name="sex" value="male" /></label> 
+		  <label>Female <input type="radio" name="sex" value="female" /> </label>
 		</label>
 		<br />
 

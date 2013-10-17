@@ -33,23 +33,13 @@ function validate() {
 		alert("Your passwords don't match!");
 		return false;
 	}
+	else {
+		sendMail();
+		return true;
+	}
 
-	return true;
+	return true; 
+
 }
 
-function sendMail() {
-	var name = document.getElementById("name");
-	var email = document.getElementById("email");
-	var pass = document.getElementById("pass");
-	var repass = document.getElementById("repass");
-	var sex = document.getElementById("sex");
-	var comment = document.getElementById("comments");
 
-
-	var body = "Your Name: " + name.value + " Your Email: " + email.value + " Your Password: " + pass.value + " Your Comment: " + comment.value;
-	var link = "mailto:smb38@njit.edu" + "?subject=" + escape("Class Project 2 Form") +
-				"&body=" + escape(body);
-
-
-	window.location.href = link;
-}
