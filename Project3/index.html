@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Add/Delete Songs</title>
+		<body>
+			<form action="db.jsp" METHOD=post>
+				<p>
+					<label for="songName">
+  					Song Name:
+  					<input name="songName" type="text" id = "songName" />
+  					</label>
+  					<br />
+
+  					<label for="artist">
+  					Artist:
+  					<input name="artist" type="text" id = "artist" />
+  					</label>
+  					<br />
+  					<label>
+				  		Add or Delete?
+				  		<label>Add <input type="radio" name="ad" value=1 /></label> 
+						  <label>Delete <input type="radio" name="ad" value=0 /> </label>
+					</label>
+					<br>
+
+					<label for="pass">
+			  			Password:
+			  			<input name="pass" type="password" id = "pass" />
+			  			 
+			  		</label>
+			  		<br />
+
+					<input type="reset" />
+  					<input type="submit" id = "subBut"  />
+				</p>
+			</form>
+		</body>
+	</head>
+</html>
